@@ -1,27 +1,27 @@
 const { Router } = require("express");
 const router = Router();
-const Property = require("../../models/property");
+const Hotel = require("../../models/hotel");
 
-router.get("/properties", (req, res) => {
-  Property.find({})
+router.get("/hotels", (req, res) => {
+  Hotel.find({})
     .populate({ path: "bookings", select: "username" })
-    .exec((err, properties) => {
+    .exec((err, hotels) => {
       if (err) {
         console.log(err);
       } else {
-        res.send(properties);
+        res.send(hotels);
       }
     });
 });
 
-router.get("/properties/:slug", (req, res) => {
-  Property.findOne({ id: req.params.slug })
+router.get("/hotels/:slug", (req, res) => {
+  Hotel.findOne({ id: req.params.slug })
     .populate({ path: "bookings", select: "username" })
-    .exec((err, property) => {
+    .exec((err, hotel) => {
       if (err) {
         res.sendStatus(500);
       } else {
-        res.send(property);
+        res.send(hotel);
       }
     });
 });

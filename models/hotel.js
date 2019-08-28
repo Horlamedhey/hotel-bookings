@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 require("./user");
 // const ObjectId = Schema.ObjectId
-const PropertySchema = new Schema(
+const HotelSchema = new Schema(
   {
     id: { type: String, unique: true, index: true, required: true, trim: true },
     name: { type: String, trim: true, required: true },
@@ -11,6 +11,6 @@ const PropertySchema = new Schema(
   },
   { timestamps: { createdAt: true, updatedAt: true } }
 );
-const Property = mongoose.model("Property", PropertySchema);
+const Hotel = mongoose.model("Hotel", HotelSchema);
 
-module.exports = Property;
+module.exports = Hotel;
