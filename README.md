@@ -3,6 +3,7 @@
 # Book Hotel
 
 Use this API to book a space
+
 `fetch("http://localhost:3000/api/users/${username}/book", { "method": "PUT", "headers": { "content-type": "application/json" }, "body": { "hotelId": "yourHotelId" } }) .then(response => { console.log(response); }) .catch(err => { console.log(err); });`
 
 # Fetch Hotel
