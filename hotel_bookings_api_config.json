@@ -1,0 +1,8 @@
+{
+  "title": "Hotel Bookings",
+  "version": "1",
+  "host": "https://",
+  "bastPath": "Base URL",
+  "schemes": "HTTP protocol",
+  "description": "API description"
+}

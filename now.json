@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "hotels-listing-server",
+  "builds": [
+    { "src": "index.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "index.js" }
+  ],
+  "env": {
+    "location" : "http://localhost",
+    "mongo" : "@mongo"
+  }
+}
