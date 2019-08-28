@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "_id": "5d6688849a5cbe1d88c840b1",
+            "property_id": 1,
+            "Type": "Simple",
+            "city": "Lagos",
+            "imageUrl": "https://content.r9cdn.net/rimg/himg/bc/39/e5/sembo-100811-59ae7b0c_z.jpg_resizeMode=FitInside_formatSettings=jpeg(quality-90)-413814.jpg?width=226&height=209&crop=true",
+            "name": "LimeHome Hotel",
+            "__v": 0
+        },
+        {
+            "_id": "5d66896a3653da30a8f0261d",
+            "property_id": 2,
+            "Type": "Deplux",
+            "city": "Lagos",
+            "imageUrl": "https://content.r9cdn.net/rimg/himg/17/05/19/leonardo-1061182-38517ro99701_S-image.jpg?width=226&height=209&crop=true",
+            "name": "LimeHome Hotel",
+            "__v": 0
+        },
+        {
+            "_id": "5d66899ba795315740261306",
+            "property_id": 3,
+            "Type": "Simple",
+            "city": "Abuja",
+            "imageUrl": "https://content.r9cdn.net/rimg/himg/54/89/a5/ice-38935-photo.aspx_did=2692_brochureid=38935_publicid=28322248_instanceid=10-image.jpg?width=226&height=209&crop=true",
+            "name": "LimeHome Hotel",
+            "__v": 0
+        },
+        {
+            "_id": "5d6689afd706f630b8f30a84",
+            "property_id": 4,
+            "Type": "Deplux",
+            "city": "Abuja",
+            "imageUrl": "https://content.r9cdn.net/rimg/himg/35/55/4f/leonardo-1108931-H4RQJL0B_S-image.jpg?width=226&height=209&xhint=1385&yhint=836&crop=true",
+            "name": "LimeHome Hotel",
+            "__v": 0
+        },
+        {
+            "_id": "5d6689c049969a27d0e42b33",
+            "property_id": 5,
+            "Type": "Simple",
+            "city": "Portharcourt",
+            "imageUrl": "https://r-ak.bstatic.com/xdata/images/hotel/square200/96330505.webp?k=805c62950bd3c4837f3d3f9240766b967ca2722ac19ab77229be4c87dd59d2cd&o=true",
+            "name": "LimeHome Hotel",
+            "__v": 0
+        },
+        {
+            "_id": "5d6689d29d5b381298ffc701",
+            "property_id": 6,
+            "Type": "Deplux",
+            "city": "Portharcourt",
+            "imageUrl": "https://r-ak.bstatic.com/xdata/images/hotel/square200/112082455.webp?k=9beb2d96d08415c993fc89524f6d6cad5748c765b30aec55b6912a3aa094232e&o=true",
+            "name": "LimeHome Hotel",
+            "__v": 0
+        }
+    ]
+}

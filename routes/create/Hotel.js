@@ -9,6 +9,7 @@ router.post("/hotels/create", (req, res) => {
       res.send(hotel);
     })
     .catch(err => {
+      console.log(err);
       res.sendStatus(500);
     });
 });
