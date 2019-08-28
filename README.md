@@ -1,42 +1,42 @@
 # hotel bookings
 
-# Book Hotel
+## Book Hotel
 
 Use this API to book a space
 
 `fetch("http://localhost:3000/api/users/${username}/book", { "method": "PUT", "headers": { "content-type": "application/json" }, "body": { "hotelId": "yourHotelId" } }) .then(response => { console.log(response); }) .catch(err => { console.log(err); });`
 
-# Fetch Hotel
+## Fetch Hotel
 
 Use this API to fetch an hotel.
 
 `fetch("http://localhost:3000/api/hotels/${id}", { "method": "GET", "headers": {} }) .then(response => { console.log(response); }) .catch(err => { console.log(err); });`
 
-# Fetch User
+## Fetch User
 
 Use this API to fetch a user.
 
 `fetch("http://localhost:3000/api/users/${username}", { "method": "GET", "headers": {} }) .then(response => { console.log(response); }) .catch(err => { console.log(err); });`
 
-# Fetch Hotels
+## Fetch Hotels
 
 Use this API to fetch all hotels.
 
 `fetch("http://localhost:3000/api/hotels", { "method": "GET", "headers": {} }) .then(response => { console.log(response); }) .catch(err => { console.log(err); });`
 
-# Fetch Users
+## Fetch Users
 
 Use this API to fetch all users.
 
 `fetch("http://localhost:3000/api/users", { "method": "GET", "headers": {} }) .then(response => { console.log(response); }) .catch(err => { console.log(err); });`
 
-# Create Hotel
+## Create Hotel
 
 This API is meant for creating hotel.
 
 `fetch("http://localhost:3000/api/hotels/create", { "method": "POST", "headers": { "content-type": "application/json" }, "body": { "id": "yourHotelId", "name": "yourHotelName", "city": "yourHotelLocation" } }) .then(response => { console.log(response); }) .catch(err => { console.log(err); });`
 
-# Create User
+## Create User
 
 This API is meant for creating user.
 
